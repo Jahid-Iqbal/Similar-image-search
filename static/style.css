@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.upload-box {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#results {
+    margin-top: 30px;
+}
+
+.similar-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.similar-image {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.similar-image img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
